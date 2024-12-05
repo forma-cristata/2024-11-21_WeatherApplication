@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/sharedAll.css">
+
+    <link rel="stylesheet" href="css/sharedPreLogin.css">
+</head>
+<body>
+<div id="bg" class="m-auto" ></div>
+<div id="img-overlay"></div>
+
+<form id="container" class="form-sign-in m-auto">
+
+<div id="other" class="m-auto">
+        <h1 class="h3 fw-normal">Please register your account</h1>
+        <div class="form-floating">
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" required />
+            <label for="email">Email address</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="password" minlength="8" placeholder="Password" required />
+            <label for="password">Password</label>
+        </div>
+        <div class="form-floating">
+            <input type="number" min="00000" max="99999" class="form-control" id="zipcode" placeholder="00000" required />
+            <label for="zipcode">Zip</label>
+        </div>
+        <button type="submit" class="btn btn-primary my-3 w-100 py-2">Register</button>
+
+        <div class="d-inline-block">
+            Already have an account?
+            <a href="login.html">Log in here</a>
+        </div>
+        <div class="form-check form-switch">
+            <input id="darkmode-edit" class="form-check-input" type="checkbox" role="switch" />
+            <label for="darkmode-edit" class="form-check-label">Dark mode</label>
+        </div>
+
+</div>
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script type="module" src="./js/register.mjs"></script>
+</body>
+</html>

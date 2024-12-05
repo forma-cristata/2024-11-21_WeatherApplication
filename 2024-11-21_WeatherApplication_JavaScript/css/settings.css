@@ -1,0 +1,40 @@
+#center
+{
+    width: 30vw;
+    margin: 0px 0px 0px 0px;
+}
+#center .x, hr
+{
+    margin-bottom: 2em;
+}
+#d
+{
+    color: rgb(50, 119, 10);
+}
+#other
+{
+    height: 70vh;
+    width: 40vw;
+    top: 50%;
+    padding: 4rem 2rem;
+
+    position: fixed;
+    background-color: var(--bs-body-bg);
+    border-radius: 16px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: fit-content;
+    min-width: fit-content;
+    opacity: 0.8;
+}
+#other button
+{
+    position: fixed;
+    right: 12%;
+}
+#other .y
+{
+    position: fixed;
+    left: 26%;
+    width: 40%;
+}

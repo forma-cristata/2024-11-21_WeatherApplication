@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <title>Settings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/sharedAll.css">
+    
+    <link rel="stylesheet" href="./css/sharedPostLogin.css">
+    <link rel="stylesheet" href="./css/settings.css">
+</head>
+<body class="d-none">
+
+<div id="bg" class="m-auto"></div>
+<div id="img-overlay"></div>
+
+
+
+<div id="other" style="width: 50vw;">
+    <div id="center">
+        <div id="title">
+            <h2>Settings</h2>
+            <br>
+            <div class="form-check form-switch">
+            <input id="darkmode-edit-2" class="form-check-input" type="checkbox" role="switch" />
+            <label for="darkmode-edit-2" class="form-check-label">Dark mode</label>
+
+            </div></div>
+        <hr>
+        <div id="email-edit" class="mt-2 x">
+            <form id="form-1">
+
+            <label for="email" class="form-label d-inline-block">Email:</label>
+            <input type="email" id="email" class="y form-control d-inline-block" placeholder="" required>
+            <button id="save-email-btn" type="submit" class="btn btn-primary d-none">Save</button>
+            <button id="edit-email-btn" type="button" class="btn btn-primary">Edit</button>
+            </form>
+        </div>
+        <div id="password-edit" class="mt-2 x">
+            <form id="form-2">
+            <label for="password" class="form-label d-inline-block">Password:</label>
+            <input type="password" minlength="8" id="password" class="y form-control d-inline-block" value="password123">
+            <button id="save-password-btn" type="submit" class="btn btn-primary d-none">Save</button>
+            <button id="edit-password-btn" type="button" class="btn btn-primary">Edit</button>
+            </form>
+        </div>
+        <div id="zipcode" class="mt-2 x">
+            <form id="form-3">
+            <label for="zipcode-edit-2" class="form-label d-inline-block">Zipcode:</label>
+            <input type="number" min="0" max="99999" pattern="/(^\d{5}$)|(^\d{5}-\d{4}$)/" id="zipcode-edit-2" class="y form-control d-inline-block" placeholder="">
+            <button id="save-zip-btn" type="submit" class="btn btn-primary d-none">Save</button>
+            <button id="edit-zip-btn" type="button" class="btn btn-primary">Edit</button>
+            </form>
+        </div>
+        <button id="logout-2-btn" class="btn btn-secondary mt-3">Logout</button>
+    </div>
+</div>
+
+<div id="navigator-container">
+    <div class="dropdown nav-item navigation-items-class">
+        <div class="nav-item d-inline-block the-divs">
+            <a id="a" class="nav-link d-inline-block" href="./home.html">Home</a>
+        </div>
+        <div class="nav-item d-inline-block the-divs">
+            <a id="b" class="nav-link d-inline-block" href="./currentWeather.html">Current Weather</a>
+        </div>
+        <div class="nav-item d-inline-block the-divs">
+            <a id="c" class="nav-link d-inline-block" href="./fiveDayForecast.html">Five-Day Forecast</a>
+        </div>
+        <div class="d-inline-block the-divs">
+            <button id="d" class="btn dropdown-toggle d-inline-block" type="button" data-bs-toggle="dropdown">Settings
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><div>
+                    <label for="zipcode-edit" class="form-label">ZipCode: </label>
+                    <input type="number" min="00000" max="99999" id="zipcode-edit" class="form-control" placeholder="">
+
+                </div></li>
+                <li><div class="form-check form-switch">
+                    <input id="darkmode-edit" class="form-check-input" type="checkbox" role="switch" />
+                    <label for="darkmode-edit" class="form-check-label">Dark mode</label>
+                </div>
+                </li>
+                <li>
+                    <a class="nav-link d-inline-block" href="./settings.html">Edit Profile</a>
+                </li>
+                <li><button id="logout" class="btn btn-secondary">Logout</button></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script type="module" src="./js/settings.mjs"></script>
+</body>
+</html>

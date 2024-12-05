@@ -1,0 +1,11 @@
+.invalid
+{
+    background-color: transparent;
+    border: none;
+    outline: 2px solid #8a0a0a;
+    border-radius: 5px;
+}
+
+#bg{
+background-image: url(../images/default.png);
+}

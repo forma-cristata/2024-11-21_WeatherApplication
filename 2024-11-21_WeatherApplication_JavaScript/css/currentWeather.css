@@ -1,0 +1,33 @@
+#b
+{
+    color: rgb(50, 119, 10);
+}
+
+#refresh-timer
+{
+    font-variant: small-caps;
+    font-size: 0.75em;
+}
+.table>:not(caption)>*>*
+{
+    padding: 0.5rem .5rem;
+    color: var(--bs-heading-color);
+
+}
+th#header.h6
+{
+    padding-bottom: 15px;
+}
+th:not(#header)
+{
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+

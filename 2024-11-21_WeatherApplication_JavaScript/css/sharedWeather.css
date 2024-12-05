@@ -1,0 +1,27 @@
+
+h2
+{
+    margin-bottom: 0;
+}
+
+
+#other
+{
+    height: fit-content;
+    width: 40vw;
+    top: 55%;
+    padding: 2rem 2rem;
+
+    position: fixed;
+    background-color: var(--bs-body-bg);
+    border-radius: 16px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: fit-content;
+    min-width: fit-content;
+    opacity: 0.8;
+}
+.other2
+{
+    width: 70vw;
+}

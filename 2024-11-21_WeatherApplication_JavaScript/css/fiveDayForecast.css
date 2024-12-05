@@ -1,0 +1,23 @@
+
+#c
+{
+    color: rgb(50, 119, 10);
+}
+caption
+{
+    padding: 0px 0px !important;
+    margin-bottom: 0px !important;
+}
+.dont-center
+{
+    text-align: left;
+}
+table
+{
+    text-align: center;
+}
+th:not(caption)
+{
+    font-variant: small-caps;
+    font-weight: normal;
+}
