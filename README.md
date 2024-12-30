@@ -1,6 +1,6 @@
 # Weather Dashboard
 
-A personalized weather application that provides real-time weather updates and forecasts. Built with vanilla JavaScript and Bootstrap, this app features user authentication, theme customization, and integration with the OpenWeatherMap API.
+A personalized weather application that provides real-time weather updates and forecasts. Built with JavaScript and Bootstrap, this app features user authentication, theme customization, and integration with the OpenWeatherMap API.
 
 ## Features
 
@@ -14,7 +14,7 @@ A personalized weather application that provides real-time weather updates and f
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript 
 - Bootstrap 5
 - OpenWeatherMap API
 
