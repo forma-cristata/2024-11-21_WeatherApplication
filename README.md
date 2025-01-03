@@ -18,8 +18,6 @@ A personalized weather application that provides real-time weather updates and f
 - Bootstrap 5
 - OpenWeatherMap API
 
-## Key Components
-
 ### Authentication System
 
 Implements a secure user registration and login system using localStorage for data persistence and cookies for session management.
