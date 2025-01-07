@@ -37,7 +37,7 @@ Features a clean, responsive design with:
 - Intuitive navigation bar
 - Dark/Light mode toggle
 - Settings panel for user preferences
-- Weather condition icons
+- Dynamic backgrounds based on user zip code
 
 ## Pages
 
